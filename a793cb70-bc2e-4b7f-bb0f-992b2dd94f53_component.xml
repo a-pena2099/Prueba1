@@ -1,0 +1,53 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
+    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="13">
+        <item name="Bold" type_name="gh_bool" type_code="1">false</item>
+        <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
+          <X>212.8375</X>
+          <Y>-153.4575</Y>
+        </item>
+        <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
+          <X>267.3785</X>
+          <Y>-153.4575</Y>
+        </item>
+        <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
+          <X>267.3785</X>
+          <Y>-130.5938</Y>
+        </item>
+        <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
+          <X>212.8375</X>
+          <Y>-130.5938</Y>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
+        <item name="Font" type_name="gh_string" type_code="10">Arial</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">a793cb70-bc2e-4b7f-bb0f-992b2dd94f53</item>
+        <item name="Italic" type_name="gh_bool" type_code="1">false</item>
+        <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
+        <item name="Size" type_name="gh_single" type_code="5">25</item>
+        <item name="Text" type_name="gh_string" type_code="10">Input</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>207.8375</X>
+              <Y>-158.4575</Y>
+              <W>64.54102</W>
+              <H>32.86377</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>212.8375</X>
+              <Y>-153.4575</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

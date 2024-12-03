@@ -1,0 +1,33 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">8fb691ed-7c6a-43ce-b0eb-d68bcca03c14</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">5f86fa9f-c62b-50e8-157b-b454ef3e00fa</item>
+    <item name="Name" type_name="gh_string" type_code="10">Item Selector</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="Description" type_name="gh_string" type_code="10">Allows you to select an item or items from an input list</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">0d8b76f0-2f9f-45c1-9cae-6e80ed5e905e</item>
+        <item name="ListCount" type_name="gh_int32" type_code="3">0</item>
+        <item name="ListMode" type_name="gh_int32" type_code="3">1</item>
+        <item name="Name" type_name="gh_string" type_code="10">Item Selector</item>
+        <item name="NickName" type_name="gh_string" type_code="10">List</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="1">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>2004</X>
+              <Y>-123</Y>
+              <W>52</W>
+              <H>22</H>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

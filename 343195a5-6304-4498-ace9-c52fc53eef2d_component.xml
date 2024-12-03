@@ -1,0 +1,53 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
+    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="13">
+        <item name="Bold" type_name="gh_bool" type_code="1">false</item>
+        <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
+          <X>1003.899</X>
+          <Y>-153.4575</Y>
+        </item>
+        <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
+          <X>1111.028</X>
+          <Y>-153.4575</Y>
+        </item>
+        <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
+          <X>1111.028</X>
+          <Y>-134.9517</Y>
+        </item>
+        <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
+          <X>1003.899</X>
+          <Y>-134.9517</Y>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
+        <item name="Font" type_name="gh_string" type_code="10">Arial</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">343195a5-6304-4498-ace9-c52fc53eef2d</item>
+        <item name="Italic" type_name="gh_bool" type_code="1">false</item>
+        <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
+        <item name="Size" type_name="gh_single" type_code="5">25</item>
+        <item name="Text" type_name="gh_string" type_code="10">Structural</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>998.8989</X>
+              <Y>-158.4575</Y>
+              <W>117.1289</W>
+              <H>28.50586</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>1003.899</X>
+              <Y>-153.4575</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

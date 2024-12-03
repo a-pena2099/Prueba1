@@ -1,0 +1,136 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">079bd9bd-54a0-41d4-98af-db999015f63d</item>
+    <item name="Name" type_name="gh_string" type_code="10">VB Script</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="10">
+        <item name="CustomUsing" type_name="gh_bool" type_code="1">true</item>
+        <item name="Description" type_name="gh_string" type_code="10">A VB.NET scriptable component</item>
+        <item name="EditorPosition" type_name="gh_drawing_point" type_code="30">
+          <X>38</X>
+          <Y>87</Y>
+        </item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">0bdfe0b4-b857-4a7e-98a1-5fe9b9c84a2c</item>
+        <item name="Name" type_name="gh_string" type_code="10">VB Script</item>
+        <item name="NickName" type_name="gh_string" type_code="10">VB</item>
+        <item name="OutParameter" type_name="gh_bool" type_code="1">false</item>
+        <item name="ReferenceCount" type_name="gh_int32" type_code="3">0</item>
+        <item name="ScriptSource" type_name="gh_string" type_code="10">    Dim doc As GH_Document = owner.OnPingDocument()
+    If (doc Is Nothing) Then Return
+
+    For Each obj As IGH_DocumentObject In doc.Objects
+      Dim group As Kernel.Special.GH_Group = TryCast(obj, Kernel.Special.GH_Group)
+      If (group Is Nothing) Then Continue For
+      If (Group.NickName.Contains(name)) Then
+        group.Colour = colour
+      End If
+    Next</item>
+        <item name="UsingSource" type_name="gh_string" type_code="10">Imports System.IO
+Imports System.Linq
+Imports System.Data
+Imports System.Drawing
+Imports System.Reflection
+Imports System.Windows.Forms
+Imports System.Xml
+Imports System.Xml.Linq
+Imports Microsoft.VisualBasic
+Imports System.Runtime.InteropServices
+
+Imports Rhino.DocObjects
+Imports Rhino.Collections
+Imports GH_IO
+Imports GH_IO.Serialization</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>1841</X>
+              <Y>-121</Y>
+              <W>69</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>1896</X>
+              <Y>-99</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="ParameterData">
+          <items count="4">
+            <item name="InputCount" type_name="gh_int32" type_code="3">2</item>
+            <item name="InputId" index="0" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
+            <item name="InputId" index="1" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
+            <item name="OutputCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="InputParam" index="0">
+              <items count="11">
+                <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
+                <item name="Description" type_name="gh_string" type_code="10">Script Variable name</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">9000f6ce-0b98-43cb-90c1-4b9c6ac8a292</item>
+                <item name="Name" type_name="gh_string" type_code="10">name</item>
+                <item name="NickName" type_name="gh_string" type_code="10">name</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
+                <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">203b23a2-377e-436a-bdf6-d84657d53443</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+                <item name="TypeHintID" type_name="gh_guid" type_code="9">abf1fd1b-dbe5-4be6-9832-d8dc105e207f</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>1843</X>
+                      <Y>-119</Y>
+                      <W>38</W>
+                      <H>20</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>1863.5</X>
+                      <Y>-109</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="InputParam" index="1">
+              <items count="11">
+                <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
+                <item name="Description" type_name="gh_string" type_code="10">Script Variable colour</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">8d387b95-2625-44ee-812a-106333914c2f</item>
+                <item name="Name" type_name="gh_string" type_code="10">colour</item>
+                <item name="NickName" type_name="gh_string" type_code="10">colour</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
+                <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">3786510d-e8fa-490d-af59-d0c8c373fb4d</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+                <item name="TypeHintID" type_name="gh_guid" type_code="9">24b1d1a3-ab79-498c-9e44-c5b14607c4d3</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>1843</X>
+                      <Y>-99</Y>
+                      <W>38</W>
+                      <H>20</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>1863.5</X>
+                      <Y>-89</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
